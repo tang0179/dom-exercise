@@ -2,6 +2,7 @@
 
 //change the content of tag-line:
 var msg = "";
+var msg1= "";
 var head = document.getElementById("tag-line");
 var tag1 = document.getElementById("tag-line-1").innerHTML;
 var tag2 = document.getElementById("tag-line-2").innerHTML;
@@ -50,4 +51,10 @@ msg += tag10+"\n";
 msg += tag11+"\n";
 msg += tag12+"\n";
 msg += tag13+"\n";
+
+
+msg1 += tag13+"\n"+"--------------------------------------------"+"\n";
+msg1+=$("#tag-line-13").next().html()+"\n\n";
+msg1+=$("#tag-line-13").next().next().html();
 alert(msg);
+alert(msg1);
